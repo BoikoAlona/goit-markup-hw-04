@@ -464,7 +464,7 @@ body {
 }
 
 
-.social-media-link:is(:hover, :focus) .contacts-socials-icons {
+.social-media-link:is(:hover, :focus) {
     background-color: #31d0aa;
 }
 
