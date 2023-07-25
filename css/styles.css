@@ -148,6 +148,7 @@ body {
 }
 
 .hero {
+    max-width: 1440px;
     background-color: #2E2F42;
     padding: 188px 0;
     background-image: linear-gradient(
@@ -156,7 +157,7 @@ body {
         ),
         url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    max-width: 1440px;
+    margin: 0 auto;
     background-position: center;
     background-size: cover;
 }
@@ -208,7 +209,6 @@ body {
     height: 112px;
     border-radius: 4px;
     background-color: #F4F4FD;
-    padding: 24px 100px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -323,6 +323,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list-socials-contacts {
@@ -400,6 +401,8 @@ body {
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .footer-slogan {
